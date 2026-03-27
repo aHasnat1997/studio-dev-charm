@@ -6,51 +6,51 @@
 
 @layer base {
   :root {
-    --background: 42 33% 95%;
-    --foreground: 25 30% 18%;
+    --background: 220 20% 10%;
+    --foreground: 210 20% 90%;
 
-    --card: 40 30% 92%;
-    --card-foreground: 25 30% 18%;
+    --card: 220 18% 14%;
+    --card-foreground: 210 20% 90%;
 
-    --popover: 42 33% 95%;
-    --popover-foreground: 25 30% 18%;
+    --popover: 220 20% 12%;
+    --popover-foreground: 210 20% 90%;
 
-    --primary: 142 30% 35%;
-    --primary-foreground: 42 33% 95%;
+    --primary: 152 45% 45%;
+    --primary-foreground: 220 20% 10%;
 
-    --secondary: 32 45% 80%;
-    --secondary-foreground: 25 30% 18%;
+    --secondary: 220 15% 20%;
+    --secondary-foreground: 210 20% 85%;
 
-    --muted: 38 25% 88%;
-    --muted-foreground: 25 15% 45%;
+    --muted: 220 15% 18%;
+    --muted-foreground: 210 12% 55%;
 
-    --accent: 195 40% 55%;
-    --accent-foreground: 42 33% 95%;
+    --accent: 200 60% 55%;
+    --accent-foreground: 220 20% 10%;
 
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 0 70% 50%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 35 20% 82%;
-    --input: 35 20% 82%;
-    --ring: 142 30% 35%;
+    --border: 220 15% 22%;
+    --input: 220 15% 22%;
+    --ring: 152 45% 45%;
 
     --radius: 0.75rem;
 
-    --ghibli-gold: 38 70% 60%;
-    --ghibli-sky: 200 55% 70%;
-    --ghibli-forest: 142 35% 40%;
-    --ghibli-earth: 25 35% 45%;
-    --ghibli-petal: 350 40% 75%;
-    --ghibli-cream: 40 40% 93%;
+    --ghibli-gold: 42 75% 55%;
+    --ghibli-sky: 210 55% 60%;
+    --ghibli-forest: 152 40% 42%;
+    --ghibli-earth: 30 30% 50%;
+    --ghibli-petal: 340 40% 65%;
+    --ghibli-cream: 220 15% 16%;
 
-    --sidebar-background: 40 30% 92%;
-    --sidebar-foreground: 25 30% 18%;
-    --sidebar-primary: 142 30% 35%;
-    --sidebar-primary-foreground: 42 33% 95%;
-    --sidebar-accent: 38 25% 88%;
-    --sidebar-accent-foreground: 25 30% 18%;
-    --sidebar-border: 35 20% 82%;
-    --sidebar-ring: 142 30% 35%;
+    --sidebar-background: 220 18% 12%;
+    --sidebar-foreground: 210 20% 90%;
+    --sidebar-primary: 152 45% 45%;
+    --sidebar-primary-foreground: 220 20% 10%;
+    --sidebar-accent: 220 15% 18%;
+    --sidebar-accent-foreground: 210 20% 85%;
+    --sidebar-border: 220 15% 22%;
+    --sidebar-ring: 152 45% 45%;
   }
 }
 
