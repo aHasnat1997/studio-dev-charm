@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import heroBgDark from "@/assets/hero-bg-dark.jpg";
+import heroBg from "@/assets/hero-bg.jpg";
 import spiritImg from "@/assets/spirit.png";
 
 const HeroSection = () => {
@@ -8,7 +8,7 @@ const HeroSection = () => {
       {/* Full background image */}
       <div className="absolute inset-0">
         <img
-          src={heroBgDark}
+          src={heroBg}
           alt=""
           className="w-full h-full object-cover"
           width={1920}
