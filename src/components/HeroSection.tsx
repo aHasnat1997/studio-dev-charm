@@ -54,12 +54,11 @@ const HeroSection = () => {
       ))}
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-6 flex flex-col lg:flex-row items-center gap-12 pt-24 pb-16">
-        {/* Text — Left */}
+      <div className="relative z-10 container mx-auto px-6 flex items-center justify-center pt-24 pb-16">
         <motion.div
-          className="flex-1 text-center lg:text-left"
-          initial={{ opacity: 0, x: -40 }}
-          animate={{ opacity: 1, x: 0 }}
+          className="text-center max-w-3xl"
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
           <motion.p
@@ -75,12 +74,12 @@ const HeroSection = () => {
             <span className="ghibli-text-gradient">Web Applications</span>{" "}
             & Platforms
           </h1>
-          <p className="text-lg md:text-xl font-body text-muted-foreground max-w-xl mx-auto lg:mx-0 mb-8 leading-relaxed">
+          <p className="text-lg md:text-xl font-body text-muted-foreground max-w-xl mx-auto mb-8 leading-relaxed">
             I am a Node.js Developer with 2+ years of experience specializing
             in building scalable web applications and cloud deployment. I help
             businesses build fast, secure, and production-ready applications.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="#projects"
               className="inline-flex items-center justify-center px-8 py-3.5 rounded-lg bg-primary text-primary-foreground font-body font-semibold hover:opacity-90 transition-opacity shadow-lg shadow-primary/20"
@@ -93,28 +92,6 @@ const HeroSection = () => {
             >
               Contact Me
             </a>
-          </div>
-        </motion.div>
-
-        {/* Profile Image — Right */}
-        <motion.div
-          className="flex-shrink-0"
-          initial={{ opacity: 0, scale: 0.85 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-        >
-          <div className="relative">
-            <div className="w-64 h-64 md:w-80 md:h-80 rounded-2xl overflow-hidden border-2 border-accent/30 shadow-2xl shadow-primary/10">
-              <img
-                src={profileImg}
-                alt="Developer portrait in Ghibli style"
-                className="w-full h-full object-cover"
-                width={320}
-                height={320}
-              />
-            </div>
-            {/* Glow effect */}
-            <div className="absolute -inset-1 rounded-2xl bg-gradient-to-br from-primary/20 via-transparent to-accent/20 -z-10 blur-sm" />
           </div>
         </motion.div>
       </div>
