@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import heroBgDark from "@/assets/hero-bg-dark.jpg";
-import profileImg from "@/assets/profile.png";
 import spiritImg from "@/assets/spirit.png";
 
 const HeroSection = () => {
